@@ -15,12 +15,10 @@ addEventListener('install', function(event) {
                 '/public/style.css',
                 '/public/scripts/popout.js',
                 '/public/scripts/pulltorefresh.js',
+                'public/scripts/jquery.js',
                 '/manifest.json',
                 '/index.html',
                 '/sw.js'
-
-
-
             ]);
         })
     );
