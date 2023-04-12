@@ -6,6 +6,7 @@ addEventListener('install', function(event) {
                 '/assets/icons/add.webp',
                 '/assets/icons/close.webp',
                 '/assets/icons/coffee.webp',
+                'assets/icons/discord.webp',
                 '/assets/icons/github.webp',
                 '/assets/icons/heart.webp',
                 'assets/icons/setting.webp',
@@ -14,7 +15,10 @@ addEventListener('install', function(event) {
                 '/public/style.css',
                 '/public/scripts/popout.js',
                 '/public/scripts/pulltorefresh.js',
-                '/manifest.json'
+                '/manifest.json',
+                '/index.html',
+                '/sw.js'
+
 
 
             ]);
