@@ -3,7 +3,7 @@
     "name": "TakeTv Card",
     "display": "standalone",
     "short_name": "TakeTV",
-    "start_url": "https://site.local/",
+    "start_url": "https://codewithjeeens.github.io/",
     "version": "1.0",
 
     "icons": [{
