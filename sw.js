@@ -2,23 +2,21 @@ addEventListener('install', function(event) {
     event.waitUntil(
         caches.open('mein-cache').then(function(cache) {
             return cache.addAll([
-                '/assets/logo.webp',
-                '/assets/icons/add.webp',
-                '/assets/icons/close.webp',
-                '/assets/icons/coffee.webp',
-                'assets/icons/discord.webp',
-                '/assets/icons/github.webp',
-                '/assets/icons/heart.webp',
-                'assets/icons/setting.webp',
+                '/assets/logo.png',
+                '/assets/icons/add.png',
+                '/assets/icons/close.png',
+                '/assets/icons/coffee.png',
+                '/assets/icons/github.png',
+                '/assets/icons/heart.png',
+                'assets/icons/setting.png',
                 '/assets/products/redbull.webp',
                 '/assets/products/icetea.webp',
-                '/public/style.css',
-                '/public/scripts/popout.js',
-                '/public/scripts/pulltorefresh.js',
-                //'/public/scripts/jquery.js',
-                '/manifest.json',
-                '/index.html',
-                '/sw.js'
+                '/style.css',
+                '/js/popout.js',
+                '/js/pulltorefresh.js',
+                '/manifest.json'
+
+
             ]);
         })
     );
